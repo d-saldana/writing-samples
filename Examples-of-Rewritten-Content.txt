@@ -1,0 +1,92 @@
+Examples of Rewritten Content
+
+Note: Original product names have been replaced with lorem-ipsum text. Original URLs have been replaced with: https://lipsum.com/feed/html. In some examples, an HTML context is assumed, hence the inclusion of HTML markup.
+
+
+1. Original:
+   Do users with Aenean seats have access to all communities by default?
+	
+   Users with Aenean seat don’t have access to all communities by default, unless a) they have an Admin or Extended system role, or b) they belong to an access group which is configured to have access to all communities.
+
+
+   Rewritten:
+   With an Aenean seat, do you have default access to all communities?
+	
+   With an Aenean seat, you have default access to all communities if you
+   * have an Admin or Extended system role, or
+   * belong to an access group that has access to all communities.
+
+
+2. Original:
+   Can you track hires made from an email campaign in Aenean?
+
+   No, you can only track links that were clicked, not the whole way through the hire.
+
+
+   Rewritten:
+   In Aenean, can you track hires made from an email campaign?
+
+   No, in Aenean, you cannot track hires made from an email campaign. You can track only clicked links. You cannot track the whole way through the hire.
+
+
+3. Original:
+   Is it possible to use the candidate properties at the configuration API to create a dropdown field for offers?
+
+   Yes - via the following endpoint: https://lipsum.com/feed/html
+
+
+   Rewritten:
+   Can you use the configuration API's candidate properties to create an Offer dropdown field?
+
+   Yes, you can use this <a href="https://lipsum.com/feed/html">endpoint</a> from the configuration API's candidate properties to create an Offer dropdown field.
+
+
+4. Original:
+   Can you make a custom candidate field to be displayed on the new Hire form mandatory?
+
+   If the field is added to the offer approval form AND the offer template AND the new hire form then it will be read-only on the NH form. If added to offer template and NH from only then the field will be editable but not required. As a note, we should not really be adding fields as hidden to the offer letter as they can be seen with some PDF readers.
+
+
+   Rewritten:
+   In the New Hire form, can you make mandatory a custom candidate field?
+
+   In the New Hire form, a field is read-only if that field meets <b><i>all</i></b> of the following conditions:
+   * You add the field to the offer-approval form.
+   * You add the field to the offer template.
+   * You add the field to the new-hire form.
+
+   In the New Hire form, a field is editable, but still optional, if that field meets the following conditions:
+   * You add the field to the offer template.
+   * You add the field to the new-hire form.
+
+   Note: Avoid adding hidden fields to the offer letter. Some PDF-reading applications can make hidden fields visible.
+
+
+5. Original:
+   Can you reset existing screening questions as diversity questions?
+
+   No - questions need to be recreated altogether. Some of the reasons: It may lead to data inconsistency and potential leaks in diversity questions. Also downstream impacts in reporting. Also, non-diversity questions might have been added to KnockOut rules and now it will look like we KO on diversity.
+
+
+   Rewritten:
+   Can you reset existing screening questions as diversity questions?
+
+   No, you cannot reset exisitng screening questions as diversity questions. You must recreate the questions altogether. Among the reasons for recreating the questions are the following:
+   * Resetting the existing questions could lead to data inconsistency and possible data leaks in diversity questions.
+   * Resetting the existing questions could impact downstream reports.
+   * If you add non-diversity-related questions to KnockOut rules, it could appear that a KnockOut rule gets triggered due to a diversity-related question.
+
+
+6. Original:
+   Have the number of custom System Roles been increased to accommodate this feature? 
+
+   Yes. It has been increased from a total of 5 to 10. 
+
+
+   Rewritten:
+   How many System Roles accommodate this feature?
+
+   A total of 10 System Roles accommdate the Delegated Administrator feature. 
+
+   Note: Earlier releases accommodated 5 System Roles, which was not sufficient to accommodate the Delegated Administrator feature.
+
